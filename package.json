@@ -1,0 +1,37 @@
+{
+    "name": "node.js-labs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --ignore-path .gitignore",
+        "lint:fix": "npm run lint -- --fix",
+        "format": "prettier --check . --ignore-path .gitignore",
+        "format:fix": "prettier --write . --ignore-path .gitignore",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AnnaOstrovska/node.js-labs.git"
+    },
+    "keywords": [],
+    "author": "AnnaOstrovska",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AnnaOstrovska/node.js-labs/issues"
+    },
+    "homepage": "https://github.com/AnnaOstrovska/node.js-labs#readme",
+    "devDependencies": {
+        "eslint": "^8.25.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.3.0",
+        "eslint-plugin-promise": "^6.1.0",
+        "eslint-plugin-sonar": "^0.9.2",
+        "husky": "^8.0.1",
+        "prettier": "2.7.1"
+    }
+}
